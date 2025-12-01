@@ -90573,7 +90573,7 @@
                               ? (Gi(),
                                 Xi('div', yJ, [
                                   ea('div', _J, [ta(on(Vq), { wrapperClassName: 'spin-icon' })]),
-                                  t[1] || (t[1] = ea('span', null, '等待中', -1)),
+                                  t[1] || (t[1] = ea('span', null, 'Waiting......', -1)),
                                 ]))
                               : (Gi(), Xi('div', bJ)),
                         ],

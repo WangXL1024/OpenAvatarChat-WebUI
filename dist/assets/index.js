@@ -70122,7 +70122,7 @@ const _ie = si(gie, [['render', vie]]),
                   ? (ft(),
                     xt('div', Fie, [
                       zt('div', Oie, [Ae(Ge(qd), { wrapperClassName: 'spin-icon' })]),
-                      i[1] || (i[1] = zt('span', null, '等待中', -1)),
+                      i[1] || (i[1] = zt('span', null, 'Waiting......', -1)),
                     ]))
                   : (ft(), xt('div', Bie)),
             ],

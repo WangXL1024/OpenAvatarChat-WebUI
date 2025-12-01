@@ -16,7 +16,7 @@
           <div class="icon" title="spinner">
             <Spin wrapperClassName="spin-icon"></Spin>
           </div>
-          <span>等待中</span>
+          <span>Waiting......</span>
         </div>
       </template>
       <template v-else>
