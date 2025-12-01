@@ -86192,7 +86192,7 @@
                       Gi(),
                       Xi('div', { class: 'access-wrap', onClick: r }, [
                         ea('span', Kq, [ta(on(jq))]),
-                        ra(' ' + Ie('点击允许访问摄像头和麦克风')),
+                        ra(' ' + Ie('Click to allow access to the camera and microphone')),
                       ])
                     )
                   }
@@ -90568,7 +90568,7 @@
                         },
                         [
                           e.streamState === on(ms).closed
-                            ? (Gi(), Xi('span', gJ, '点击开始对话'))
+                            ? (Gi(), Xi('span', gJ, 'Click to start the conversation'))
                             : e.streamState === on(ms).waiting
                               ? (Gi(),
                                 Xi('div', yJ, [

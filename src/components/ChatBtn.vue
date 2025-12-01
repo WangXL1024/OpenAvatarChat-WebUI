@@ -9,7 +9,7 @@
       @click="onStartChat"
     >
       <template v-if="streamState === StreamState.closed">
-        <span>点击开始对话</span>
+        <span>Click to start the conversation</span>
       </template>
       <template v-else-if="streamState === StreamState.waiting">
         <div class="waiting-icon-text">

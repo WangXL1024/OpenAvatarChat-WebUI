@@ -66293,7 +66293,7 @@ const ba = i5('visionStore', {
     },
   }),
   Tee = { class: 'icon-wrap' },
-  wee = '点击允许访问摄像头和麦克风',
+  wee = 'Click to allow access to the camera and microphone',
   Cee = qt({
     __name: 'WebcamPermission',
     emits: ['click'],
@@ -70117,7 +70117,7 @@ const _ie = si(gie, [['render', vie]]),
             },
             [
               t.streamState === Ge(qi).closed
-                ? (ft(), xt('span', Die, '点击开始对话'))
+                ? (ft(), xt('span', Die, 'Click to start the conversation'))
                 : t.streamState === Ge(qi).waiting
                   ? (ft(),
                     xt('div', Fie, [
