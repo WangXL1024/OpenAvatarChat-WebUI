@@ -11,7 +11,7 @@ const accessClick = async () => {
   videoChatState.accessDevice();
 };
 onMounted(() => {
-  // accessClick(); //自动获取权限
+  accessClick(); //自动获取权限
 });
 
 const text = 'Click to allow access to the camera and microphone';
